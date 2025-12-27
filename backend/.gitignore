@@ -1,0 +1,105 @@
+# 编译输出文件
+/dist
+/node_modules
+/build
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 系统文件
+.DS_Store
+
+# 测试相关
+/coverage
+/.nyc_output
+
+# IDE 和编辑器配置
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode 配置
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 环境变量文件
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# 临时目录
+.temp
+.tmp
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 诊断报告文件
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Windows系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux系统文件
+*.swp
+*.swo
+*~
+
+# 临时文件目录
+temp/
+tmp/
+
+# 缓存文件
+.cache/
+.eslintcache
+.prettiercache
+.node_repl_history
+
+# 项目业务文件
+/uploads
+/uploads/**/*
+pgdata/
+*.sql
+*.dump
+
+# 敏感证书文件
+*.pem
+*.key
+*.crt
+
+# 打包压缩文件
+*.tar.gz
+*.zip
+*.rar
+
+# TypeScript构建缓存
+*.tsbuildinfo
+
+# TypeORM迁移缓存
+.migration/
+
+# 测试结果文件
+test-results/
+*.test.js
+*.spec.js
